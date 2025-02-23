@@ -13,7 +13,8 @@ An all-in-one DSP development platform.
 2. Stereo audio in and out
 3. _Enough_ inputs (buttons/pots)
 4. Necessary analogue circuitry so that it can realistically be used as a standalone effect/synth in a real setup.
-4. _fun_
+5. Power from USB or DC jack (12V max)
+7. _fun_
 
 ## Parts choices
 
