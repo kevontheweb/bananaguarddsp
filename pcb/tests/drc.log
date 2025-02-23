@@ -1,0 +1,506 @@
+** Drc report for BananaGuard.kicad_pcb **
+** Created on 2025-02-23T01:37:29+0200 **
+
+** Found 93 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(128.3598 mm, 70.0603 mm): NPTH pad
+    @(129.1358 mm, 70.8663 mm): Pad A1 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(128.3598 mm, 70.0603 mm): NPTH pad
+    @(129.1358 mm, 70.8663 mm): Pad B12 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(131.2498 mm, 65.0547 mm): NPTH pad
+    @(132.3358 mm, 65.3237 mm): Pad A12 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(131.2498 mm, 65.0547 mm): NPTH pad
+    @(132.3358 mm, 65.3237 mm): Pad B1 on B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(160.8091 mm, 49.5101 mm): Polygon on Edge.Cuts
+    @(149.7600 mm, 155.2700 mm): Reference field of J1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(160.8091 mm, 49.5101 mm): Polygon on Edge.Cuts
+    @(131.6400 mm, 154.4200 mm): Reference field of J2
+[lib_footprint_mismatch]: Footprint 'Jack_3.5mm_PJ320E_Horizontal' does not match copy in library 'Connector_Audio'.
+    Local override; warning
+    @(152.3000 mm, 141.3000 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal' does not match copy in library 'Connector_USB'.
+    Local override; warning
+    @(127.5489 mm, 66.2550 mm): Footprint P1
+[lib_footprint_mismatch]: Footprint 'Jack_3.5mm_PJ320E_Horizontal' does not match copy in library 'Connector_Audio'.
+    Local override; warning
+    @(129.1000 mm, 140.4500 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'LQFP-100_14x14mm_P0.5mm' does not match copy in library 'Package_QFP'.
+    Local override; warning
+    @(139.6000 mm, 104.2000 mm): Footprint U2
+[lib_footprint_mismatch]: Footprint 'QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm' does not match copy in library 'Package_DFN_QFN'.
+    Local override; warning
+    @(139.6000 mm, 120.2000 mm): Footprint U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(102.8000 mm, 45.4000 mm): Zone [GND] on F.Cu and B.Cu
+    @(132.3358 mm, 65.3237 mm): Pad A12 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(102.8000 mm, 45.4000 mm): Zone [GND] on F.Cu and B.Cu
+    @(132.3358 mm, 65.3237 mm): Pad B1 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(135.5343 mm, 59.0451 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(161.0666 mm, 60.7649 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.8461 mm, 59.3350 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.3207 mm, 59.7732 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(151.5959 mm, 135.3003 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(160.5375 mm, 60.6326 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.6395 mm, 139.0816 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(132.4909 mm, 139.0599 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.9034 mm, 57.0431 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(161.1540 mm, 62.5728 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.8461 mm, 59.3350 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8875 mm, 64.1500 mm): Reference field of R2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8875 mm, 69.1700 mm): Reference field of R4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8875 mm, 66.6600 mm): Reference field of R3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(153.2000 mm, 139.2000 mm): Segment on F.Silkscreen
+    @(151.5746 mm, 135.2789 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+    @(145.9000 mm, 139.2000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+    @(140.8000 mm, 142.0000 mm): Reference field of H1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.7864 mm, 62.3524 mm): Polygon on F.Silkscreen
+    @(161.1350 mm, 63.7850 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.6650 mm, 63.7850 mm): Segment on F.Silkscreen
+    @(161.1540 mm, 62.5728 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(161.1350 mm, 63.7850 mm): Segment on F.Silkscreen
+    @(161.1540 mm, 62.5728 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+    @(158.9700 mm, 62.1250 mm): Reference field of D1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+    @(158.9700 mm, 62.1250 mm): Reference field of D1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+    @(158.9700 mm, 62.1250 mm): Reference field of D1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(141.6699 mm, 60.2065 mm): Segment on F.Silkscreen
+    @(141.8461 mm, 59.3350 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(141.8461 mm, 59.3350 mm): Polygon on F.Silkscreen
+    @(144.5353 mm, 60.1635 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(144.1900 mm, 59.1616 mm): Reference field of D2
+    @(141.8461 mm, 59.3350 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(142.4049 mm, 58.9335 mm): Segment on F.Silkscreen
+    @(141.8461 mm, 59.3350 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.6650 mm, 61.3250 mm): Segment on F.Silkscreen
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.6650 mm, 63.7850 mm): Segment on F.Silkscreen
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(161.1350 mm, 63.7850 mm): Segment on F.Silkscreen
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.6650 mm, 61.3250 mm): Segment on F.Silkscreen
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+    @(158.9700 mm, 62.1250 mm): Reference field of D1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(144.1900 mm, 59.1616 mm): Reference field of D2
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(141.6699 mm, 60.2065 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(141.8461 mm, 59.3350 mm): Polygon on F.Silkscreen
+    @(141.6699 mm, 60.2065 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(135.1600 mm, 57.9616 mm): Reference field of D3
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(142.5937 mm, 57.5197 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+    @(144.5353 mm, 60.1635 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(147.1000 mm, 150.6000 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(147.1000 mm, 153.4000 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(152.9000 mm, 150.6000 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(145.9000 mm, 150.6000 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(153.2000 mm, 139.2000 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(153.2000 mm, 150.6000 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+    @(153.2000 mm, 150.6000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.6650 mm, 61.3250 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.6650 mm, 63.7850 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(161.1350 mm, 63.7850 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(137.8000 mm, 64.2000 mm): Reference field of H2
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+    @(134.0699 mm, 59.3935 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(136.2003 mm, 58.1635 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(142.4049 mm, 58.9335 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(134.8049 mm, 60.6665 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(140.4299 mm, 59.1813 mm): Reference field of D4
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(139.8370 mm, 58.3029 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(142.2132 mm, 58.9396 mm): Segment on F.Silkscreen
+    @(160.8873 mm, 52.6843 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(142.5937 mm, 57.5197 mm): Segment on F.Silkscreen
+    @(140.9034 mm, 57.0431 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(143.5877 mm, 59.3348 mm): Polygon on F.Silkscreen
+    @(144.5353 mm, 60.1635 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(145.8531 mm, 152.1784 mm): Polygon on F.Silkscreen
+    @(147.1000 mm, 150.6000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(145.8531 mm, 152.1784 mm): Polygon on F.Silkscreen
+    @(147.1000 mm, 153.4000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(147.1000 mm, 150.6000 mm): Segment on F.Silkscreen
+    @(145.8531 mm, 152.1784 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(147.1000 mm, 153.4000 mm): Segment on F.Silkscreen
+    @(145.8531 mm, 152.1784 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(147.1000 mm, 153.4000 mm): Segment on F.Silkscreen
+    @(145.6629 mm, 153.0301 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(151.5959 mm, 135.3003 mm): Polygon on F.Silkscreen
+    @(153.2000 mm, 139.2000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(162.3207 mm, 59.7732 mm): Polygon on F.Silkscreen
+    @(161.1350 mm, 63.7850 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(181.8875 mm, 64.1500 mm): Reference field of R2
+    @(181.6328 mm, 63.5925 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(160.2729 mm, 60.7649 mm): Polygon on F.Silkscreen
+    @(159.6650 mm, 61.3250 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(181.8875 mm, 66.6600 mm): Reference field of R3
+    @(181.6328 mm, 66.1025 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(135.5343 mm, 59.0451 mm): Polygon on F.Silkscreen
+    @(136.2003 mm, 58.1635 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(143.5877 mm, 59.3348 mm): Polygon on F.Silkscreen
+    @(144.1900 mm, 59.1616 mm): Reference field of D2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(142.4049 mm, 58.9335 mm): Segment on F.Silkscreen
+    @(141.8461 mm, 59.3350 mm): Polygon on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(135.5343 mm, 59.0451 mm): Polygon on F.Silkscreen
+    @(134.8049 mm, 60.6665 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(135.5343 mm, 59.0451 mm): Polygon on F.Silkscreen
+    @(135.1600 mm, 57.9616 mm): Reference field of D3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(140.4299 mm, 59.1813 mm): Reference field of D4
+    @(139.8370 mm, 58.3029 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(181.8875 mm, 69.1700 mm): Reference field of R4
+    @(181.6328 mm, 68.6125 mm): Segment on F.Silkscreen
+
+** Found 11 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.9750 mm, 70.6000 mm): Pad 1 on F.Cu
+    @(180.9750 mm, 68.0900 mm): Pad 1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.9750 mm, 68.0900 mm): Pad 1 on F.Cu
+    @(180.9750 mm, 65.5800 mm): Pad 1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.9750 mm, 65.5800 mm): Pad 1 on F.Cu
+    @(180.9750 mm, 63.0700 mm): Pad 1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.9358 mm, 66.0165 mm): Pad B4 on B.Cu
+    @(129.5358 mm, 70.1735 mm): Pad A4 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.9358 mm, 66.0165 mm): Pad B4 on B.Cu
+    @(180.9750 mm, 65.5800 mm): Pad 1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.4000 mm, 61.2500 mm): Pad 2 on F.Cu
+    @(182.8000 mm, 63.0700 mm): Pad 2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.2328 mm, 60.8375 mm): Pad 2 on F.Cu
+    @(182.8000 mm, 65.5800 mm): Pad 2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.6328 mm, 58.7625 mm): Pad 2 on F.Cu
+    @(182.8000 mm, 68.0900 mm): Pad 2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.9664 mm, 97.7123 mm): Pad 10 on B.Cu
+    @(138.0620 mm, 94.8839 mm): Pad 99 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.9161 mm, 105.7380 mm): Pad 27 on B.Cu
+    @(143.9664 mm, 97.7123 mm): Pad 10 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.0620 mm, 94.8839 mm): Pad 99 on B.Cu
+    @(130.2839 mm, 105.7380 mm): Pad 74 on B.Cu
+
+** Found 42 Footprint errors **
+[net_conflict]: No pad found for pin G in schematic.
+    Local override; warning
+    @(152.3000 mm, 141.3000 mm): Footprint J1
+[net_conflict]: No pad found for pin R in schematic.
+    Local override; warning
+    @(152.3000 mm, 141.3000 mm): Footprint J1
+[net_conflict]: No pad found for pin G in schematic.
+    Local override; warning
+    @(129.1000 mm, 140.4500 mm): Footprint J2
+[net_conflict]: No pad found for pin R in schematic.
+    Local override; warning
+    @(129.1000 mm, 140.4500 mm): Footprint J2
+[missing_footprint]: Missing footprint RV1 (R_Potentiometer)
+    Local override; warning
+[missing_footprint]: Missing footprint U3 (AMS1117-3.3)
+    Local override; warning
+[missing_footprint]: Missing footprint C1 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint C2 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint C3 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint C4 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint C5 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint C6 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint C7 (1 uF)
+    Local override; warning
+[missing_footprint]: Missing footprint C8 (10 uF)
+    Local override; warning
+[missing_footprint]: Missing footprint C9 (10 nF)
+    Local override; warning
+[missing_footprint]: Missing footprint C10 (1 uF)
+    Local override; warning
+[missing_footprint]: Missing footprint C11 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint C12 (2.2u)
+    Local override; warning
+[missing_footprint]: Missing footprint C13 (2.2u)
+    Local override; warning
+[missing_footprint]: Missing footprint C14 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint C15 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint FB1 (120R)
+    Local override; warning
+[missing_footprint]: Missing footprint R5 (1k)
+    Local override; warning
+[missing_footprint]: Missing footprint SW1 (SW_Push)
+    Local override; warning
+[missing_footprint]: Missing footprint SW2 (SW_Push_SPDT)
+    Local override; warning
+[net_conflict]: Pad net (Net-(U2-VSS-Pad10)) doesn't match net given by schematic (GND).
+    Local override; warning
+    @(143.9664 mm, 97.7123 mm): Pad 10 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-VDD-Pad11)) doesn't match net given by schematic (+3.3V).
+    Local override; warning
+    @(144.3199 mm, 98.0658 mm): Pad 11 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-NRST-Pad14)) doesn't match net given by schematic (/MCU/RESET).
+    Local override; warning
+    @(145.3806 mm, 99.1265 mm): Pad 14 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-VDD-Pad19)) doesn't match net given by schematic (+3.3V).
+    Local override; warning
+    @(147.1484 mm, 100.8943 mm): Pad 19 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-VSSA-Pad20)) doesn't match net given by schematic (GND).
+    Local override; warning
+    @(147.5019 mm, 101.2478 mm): Pad 20 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-VDDA-Pad22)) doesn't match net given by schematic (+3.3VA).
+    Local override; warning
+    @(148.2090 mm, 101.9549 mm): Pad 22 on B.Cu
+[net_conflict]: Pad net (Net-(U2-VSS-Pad10)) doesn't match net given by schematic (GND).
+    Local override; warning
+    @(148.9161 mm, 105.7380 mm): Pad 27 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-VDD-Pad28)) doesn't match net given by schematic (+3.3V).
+    Local override; warning
+    @(148.5626 mm, 106.0915 mm): Pad 28 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-VCAP_1-Pad49)) doesn't match net given by schematic (Net-(U2-VCAP_1)).
+    Local override; warning
+    @(141.1380 mm, 113.5161 mm): Pad 49 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-VDD-Pad50)) doesn't match net given by schematic (+3.3V).
+    Local override; warning
+    @(140.7844 mm, 113.8697 mm): Pad 50 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-VCAP_2-Pad73)) doesn't match net given by schematic (Net-(U2-VCAP_2)).
+    Local override; warning
+    @(130.6374 mm, 106.0915 mm): Pad 73 on B.Cu
+[net_conflict]: Pad net (Net-(U2-VSS-Pad10)) doesn't match net given by schematic (GND).
+    Local override; warning
+    @(130.2839 mm, 105.7380 mm): Pad 74 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-VDD-Pad75)) doesn't match net given by schematic (+3.3V).
+    Local override; warning
+    @(129.9303 mm, 105.3844 mm): Pad 75 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-BOOT0-Pad94)) doesn't match net given by schematic (Net-(U2-BOOT0)).
+    Local override; warning
+    @(136.2943 mm, 96.6516 mm): Pad 94 on B.Cu
+[net_conflict]: Pad net (Net-(U2-VSS-Pad10)) doesn't match net given by schematic (GND).
+    Local override; warning
+    @(138.0620 mm, 94.8839 mm): Pad 99 on B.Cu
+[net_conflict]: Pad net (unconnected-(U2-VDD-Pad100)) doesn't match net given by schematic (+3.3V).
+    Local override; warning
+    @(138.4156 mm, 94.5303 mm): Pad 100 on B.Cu
+[missing_footprint]: Missing footprint Y1 (Crystal)
+    Local override; warning
+
+** End of Report **
