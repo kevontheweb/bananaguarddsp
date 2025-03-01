@@ -640,6 +640,66 @@
     [
       "885d800c-45cf-4a95-91d9-af655ed47726",
       "Analogue Front End"
+    ],
+    [
+      "3946e482-0b45-422f-8df8-a9f9b66d3e73",
+      "Keys"
+    ],
+    [
+      "aec6201a-578f-49f0-8ea2-66fb39d0a9ea",
+      "Debounced Button"
+    ],
+    [
+      "d17cfa6e-0209-4bf9-b4b5-f6082341de20",
+      "Debounced Button1"
+    ],
+    [
+      "6c95cb4e-5507-494c-95c6-50e1d1d69025",
+      "Debounced Button2"
+    ],
+    [
+      "01e17d0a-412f-4d7a-9227-4ba16d92153f",
+      "Debounced Button3"
+    ],
+    [
+      "299de876-0c5e-4abf-8322-31360b041f05",
+      "Debounced Button4"
+    ],
+    [
+      "4d7de1fb-47ac-412c-a2ee-cf0667f27b41",
+      "Debounced Button5"
+    ],
+    [
+      "f93c52e7-bfcd-442c-b7ea-356596214072",
+      "Analogue Front End1"
+    ],
+    [
+      "ae7f9a36-3daf-4903-87c4-e09344dfdb56",
+      "Buttons"
+    ],
+    [
+      "01e17d0a-412f-4d7a-9227-4ba16d92153f",
+      "Debounced Button3"
+    ],
+    [
+      "299de876-0c5e-4abf-8322-31360b041f05",
+      "Debounced Button4"
+    ],
+    [
+      "6c95cb4e-5507-494c-95c6-50e1d1d69025",
+      "Debounced Button2"
+    ],
+    [
+      "4d7de1fb-47ac-412c-a2ee-cf0667f27b41",
+      "Debounced Button5"
+    ],
+    [
+      "d17cfa6e-0209-4bf9-b4b5-f6082341de20",
+      "Debounced Button1"
+    ],
+    [
+      "aec6201a-578f-49f0-8ea2-66fb39d0a9ea",
+      "Debounced Button"
     ]
   ],
   "text_variables": {}

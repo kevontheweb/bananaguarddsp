@@ -478,155 +478,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -751,39 +602,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV76150DCY"
+		(symbol "Device:Varistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 6.35 0)
+			(property "Reference" "RV"
+				(at 3.175 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "TLV76150DCY"
-				(at -1.27 6.35 0)
+			(property "Value" "Varistor"
+				(at -3.175 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv761.pdf"
-				(at 0 -13.97 0)
+			(property "Footprint" ""
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -791,7 +637,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "5.0V, 1A, Low Noise, High-PSRR LDO Regulator, 2.5V...16V input, SOT-223"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -800,7 +646,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "voltage fixed low-dropout"
+			(property "Description" "Voltage dependent resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -809,7 +655,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT*223*"
+			(property "Sim.Name" "kicad_builtin_varistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -818,42 +664,100 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV76150DCY_0_1"
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=A 2=B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "threshold=1k"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "VDR resistance"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RV_* Varistor*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Varistor_0_0"
+				(text "U"
+					(at -1.778 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Varistor_0_1"
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 			)
-			(symbol "TLV76150DCY_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
+			(symbol "Varistor_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -868,10 +772,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1240,266 +1144,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "power"
-		(exclude_from_sim no)
-		(at 204.47 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "26a23688-3a64-4c0f-a67d-d7f3eeb2cb4b")
 	)
 	(text "input"
 		(exclude_from_sim no)
@@ -1521,16 +1165,6 @@
 		)
 		(uuid "4068ec1f-ea19-4ca7-90ce-aa44dc1f2ffb")
 	)
-	(text "low esr (tantalum)"
-		(exclude_from_sim no)
-		(at 218.44 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "443de2aa-9716-46fd-a125-9c39ed4b13bc")
-	)
 	(text "crude AA filter \n(use the one in the codec too)"
 		(exclude_from_sim no)
 		(at 232.41 128.27 0)
@@ -1541,6 +1175,16 @@
 		)
 		(uuid "57024bfa-1ce5-492c-ae93-d5e09b39c2cc")
 	)
+	(text "1M || 1M forms the output impedance (500k) that the codec sees"
+		(exclude_from_sim no)
+		(at 152.4 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62bddc35-7dcd-4e0a-bc2d-7d724ad6159f")
+	)
 	(text "ouput"
 		(exclude_from_sim no)
 		(at 201.93 179.07 0)
@@ -1550,26 +1194,6 @@
 			)
 		)
 		(uuid "6adbd61e-ea57-4ad9-b35b-d5d62a08e6a1")
-	)
-	(text "pwr in from dc jack/jst"
-		(exclude_from_sim no)
-		(at 118.11 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7ae61571-45aa-4ded-9451-216e64c6fd72")
-	)
-	(text "pwr in from usb\n(ORing)"
-		(exclude_from_sim no)
-		(at 170.18 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a33e16b8-fe84-4de0-bdaa-fc3fbd8b8c1e")
 	)
 	(text "coupling\n(get rid of DC offset)"
 		(exclude_from_sim no)
@@ -1608,18 +1232,49 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(href "https://www.youtube.com/watch?v=2kYJwosAz3Y")
 		)
 		(uuid "d61a9d34-1139-49f1-9163-1a9c8d5036dc")
 	)
-	(text "reference voltage"
+	(text "1M || 1M forms the input impedance to the op amp (500k)"
 		(exclude_from_sim no)
-		(at 271.78 44.45 0)
+		(at 168.91 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "dc643c17-933d-4b5f-988c-0bf621034559")
+		(uuid "e5deb59a-0bab-4227-974a-5509227f0341")
+	)
+	(text "TODO: check this ESD/MOV thing"
+		(exclude_from_sim no)
+		(at 82.55 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6b3cefd-b032-43df-bd2a-2c56b38409d6")
+	)
+	(text "bias (offset half vcc)\n"
+		(exclude_from_sim no)
+		(at 152.4 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee3e9462-e117-4b60-9248-617dc6bc101f")
+	)
+	(text "decouple (dc filter)"
+		(exclude_from_sim no)
+		(at 139.7 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb2db6ee-1d7d-48e6-8bd9-b5523de8c6d3")
 	)
 	(junction
 		(at 156.21 142.24)
@@ -1632,12 +1287,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "096811c8-bcc3-46dd-b598-1fb93cf4fccd")
-	)
-	(junction
-		(at 245.11 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ba1e0be-9fdc-494b-8d39-738ec0ba848d")
 	)
 	(junction
 		(at 204.47 125.73)
@@ -1658,22 +1307,10 @@
 		(uuid "31b67620-7943-4c9a-b5f8-a43c3d305640")
 	)
 	(junction
-		(at 207.01 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "341d3a94-dbdd-4b37-a230-9a5e3d3608ee")
-	)
-	(junction
 		(at 177.8 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "415ebed6-c50e-49bc-9f79-a40881e9f1dd")
-	)
-	(junction
-		(at 194.31 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c5d1b91-cca3-4bc7-a490-b56bb80f3065")
 	)
 	(junction
 		(at 130.81 154.94)
@@ -1682,40 +1319,16 @@
 		(uuid "70db6f1e-2cd7-46e8-98f7-62aa14bdd26a")
 	)
 	(junction
-		(at 278.13 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "710b2979-be01-4ead-8f3d-715424865eaa")
-	)
-	(junction
-		(at 143.51 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d16d467-01b4-465a-8945-d3e85bd5461e")
-	)
-	(junction
 		(at 266.7 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80a3aaec-2e9e-4d3c-aea2-b17840b17102")
 	)
 	(junction
-		(at 118.11 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b159c78-f11b-48a1-bf63-1e0e0667f541")
-	)
-	(junction
 		(at 152.4 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a82104a9-1ef3-4041-b1a9-055e4e740abb")
-	)
-	(junction
-		(at 143.51 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "acbd866a-0cf2-4c26-bb7f-33b6b28f25b4")
 	)
 	(junction
 		(at 245.11 144.78)
@@ -1730,22 +1343,10 @@
 		(uuid "ba6963f4-5eb0-466d-a27e-bc992ef208ac")
 	)
 	(junction
-		(at 168.91 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c85e9d74-3b0c-4bbe-a879-39845d8aa8c1")
-	)
-	(junction
 		(at 201.93 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd620042-c120-4419-8856-7f909e8731b4")
-	)
-	(junction
-		(at 265.43 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d14bcfba-178d-47b7-bdc3-8dceb2bd2b09")
 	)
 	(junction
 		(at 130.81 142.24)
@@ -1753,15 +1354,17 @@
 		(color 0 0 0 0)
 		(uuid "e662a0a5-47fb-456c-8ff8-8cc3dea96ce4")
 	)
-	(wire
-		(pts
-			(xy 118.11 73.66) (xy 143.51 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02f79d0f-aa82-4854-917a-7c47601181d8")
+	(junction
+		(at 105.41 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6817c3a-6e0a-48fd-ae50-75fd539de805")
+	)
+	(junction
+		(at 105.41 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6c0c0e4-fcc3-44a8-ab14-fac099639ef5")
 	)
 	(wire
 		(pts
@@ -1785,7 +1388,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 218.44) (xy 177.8 215.9)
+			(xy 82.55 142.24) (xy 82.55 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14cfe7cc-6a47-40c5-95da-0e43f260d361")
+	)
+	(wire
+		(pts
+			(xy 177.8 224.79) (xy 177.8 215.9)
 		)
 		(stroke
 			(width 0)
@@ -1835,36 +1448,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 142.24) (xy 114.3 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20dd0a9f-8590-48ab-8e73-34dece79ac9b")
-	)
-	(wire
-		(pts
-			(xy 278.13 68.58) (xy 278.13 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21ef466c-672e-4daa-8ec8-177df1a364a7")
-	)
-	(wire
-		(pts
-			(xy 168.91 57.15) (xy 177.8 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225c4453-b93e-4c79-8286-0de59e9fdb65")
-	)
-	(wire
-		(pts
 			(xy 228.6 144.78) (xy 219.71 144.78)
 		)
 		(stroke
@@ -1895,13 +1478,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 66.04) (xy 218.44 66.04)
+			(xy 105.41 142.24) (xy 105.41 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d1e5a7d-1e18-47d4-9d78-42f4f1519f22")
+		(uuid "30ade56c-b5fa-467f-9ab9-702298edc04b")
 	)
 	(wire
 		(pts
@@ -1922,16 +1505,6 @@
 			(type default)
 		)
 		(uuid "3730a063-b0c2-4247-9c25-c86d9da3b0ef")
-	)
-	(wire
-		(pts
-			(xy 265.43 78.74) (xy 278.13 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3752e21a-1afc-4794-bb38-6022dc899e8d")
 	)
 	(wire
 		(pts
@@ -1975,6 +1548,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 154.94) (xy 105.41 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4a4668-d0de-4498-99b2-ee1fbfb95239")
+	)
+	(wire
+		(pts
 			(xy 254 208.28) (xy 245.11 208.28)
 		)
 		(stroke
@@ -1995,33 +1578,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 66.04) (xy 143.51 66.04)
+			(xy 105.41 142.24) (xy 114.3 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5975a34e-0d9f-4e25-9bcf-0714666ce3d5")
-	)
-	(wire
-		(pts
-			(xy 207.01 66.04) (xy 194.31 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d77c1c7-a402-460d-9868-e27a5c921c2c")
-	)
-	(wire
-		(pts
-			(xy 143.51 66.04) (xy 152.4 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e084d22-0ba3-48c1-8c00-a08a6e622057")
+		(uuid "4c06867e-736c-416a-adc1-4d78b399bacd")
 	)
 	(wire
 		(pts
@@ -2085,6 +1648,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 152.4) (xy 82.55 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfe7a0d-86a1-4eba-bb46-eae5d3a5ee6a")
+	)
+	(wire
+		(pts
 			(xy 177.8 208.28) (xy 177.8 205.74)
 		)
 		(stroke
@@ -2125,26 +1698,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 66.04) (xy 245.11 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88ea1788-32c5-486e-aae1-aa41aa741161")
-	)
-	(wire
-		(pts
-			(xy 278.13 66.04) (xy 265.43 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a90768c-e753-4694-93ae-0bc8841eba70")
-	)
-	(wire
-		(pts
 			(xy 191.77 189.23) (xy 201.93 189.23)
 		)
 		(stroke
@@ -2155,33 +1708,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 57.15) (xy 194.31 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bcd0ebf-52d5-4b86-a7eb-40bb5d802c6f")
-	)
-	(wire
-		(pts
-			(xy 270.51 144.78) (xy 261.62 144.78)
+			(xy 266.7 144.78) (xy 261.62 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94922554-8053-413a-8475-ad9c6709b7e1")
-	)
-	(wire
-		(pts
-			(xy 168.91 66.04) (xy 160.02 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "953792a5-9ca1-40e7-8470-a4df14ad01d5")
 	)
 	(wire
 		(pts
@@ -2195,16 +1728,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 63.5) (xy 265.43 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7908bc8-a597-4e19-be18-434a9fc87b36")
-	)
-	(wire
-		(pts
 			(xy 181.61 142.24) (xy 199.39 142.24)
 		)
 		(stroke
@@ -2212,16 +1735,6 @@
 			(type default)
 		)
 		(uuid "a90cc8f2-0275-487d-96fa-4cc6eb12c6d2")
-	)
-	(wire
-		(pts
-			(xy 194.31 66.04) (xy 194.31 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a98ce913-3f92-4640-9e1f-3c8942120cb1")
 	)
 	(wire
 		(pts
@@ -2262,16 +1775,6 @@
 			(type default)
 		)
 		(uuid "b1b9c7b3-7078-417b-a559-5dbc4de1dfd0")
-	)
-	(wire
-		(pts
-			(xy 265.43 78.74) (xy 265.43 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3cb9a93-0a1a-4af4-abf8-20819f3266a7")
 	)
 	(wire
 		(pts
@@ -2345,6 +1848,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 142.24) (xy 105.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b0c837-a3b3-4784-9add-1500dd687de5")
+	)
+	(wire
+		(pts
 			(xy 254 222.25) (xy 254 224.79)
 		)
 		(stroke
@@ -2362,46 +1875,6 @@
 			(type default)
 		)
 		(uuid "f4f24398-fcad-4265-bba8-cbcfe4abd658")
-	)
-	(wire
-		(pts
-			(xy 265.43 66.04) (xy 265.43 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9769538-a2a7-4710-b00e-66d0b7f2b58e")
-	)
-	(wire
-		(pts
-			(xy 278.13 78.74) (xy 278.13 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa41ba3d-5a69-47fa-9468-9f6c2ff2504e")
-	)
-	(wire
-		(pts
-			(xy 105.41 142.24) (xy 105.41 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbdda2c5-f2b5-45b6-8700-642e2cbb6c4f")
-	)
-	(wire
-		(pts
-			(xy 194.31 66.04) (xy 168.91 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc3de101-f7a2-4129-ba15-5f867306a730")
 	)
 	(wire
 		(pts
@@ -2423,7 +1896,7 @@
 		)
 		(uuid "fdf02de0-5446-40d3-baef-86b64ff7b730")
 	)
-	(hierarchical_label "CODEC_AUDIO_OUTPUT_L"
+	(hierarchical_label "CODEC_AUDIO_OUTPUT"
 		(shape output)
 		(at 135.89 205.74 180)
 		(effects
@@ -2434,9 +1907,9 @@
 		)
 		(uuid "42ef1965-9561-4479-9188-165b06566169")
 	)
-	(hierarchical_label "RAW_AUDIO_INPUT_L"
+	(hierarchical_label "AUDIO_INPUT"
 		(shape output)
-		(at 105.41 142.24 180)
+		(at 82.55 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2445,7 +1918,7 @@
 		)
 		(uuid "82654227-a2db-4591-8484-04636c147d0b")
 	)
-	(hierarchical_label "BUFFERED_AUDIO_OUTPUT_L"
+	(hierarchical_label "BUFFERED_AUDIO_OUTPUT"
 		(shape output)
 		(at 266.7 208.28 0)
 		(effects
@@ -2456,9 +1929,9 @@
 		)
 		(uuid "e5971f20-1d59-4dff-9b95-3588bf7dd223")
 	)
-	(hierarchical_label "BUFFERED_AUDIO_INPUT_L"
+	(hierarchical_label "BUFFERED_AUDIO_INPUT"
 		(shape output)
-		(at 270.51 144.78 0)
+		(at 266.7 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2468,17 +1941,17 @@
 		(uuid "f1130ddd-9c20-4fbe-97ac-45cf9821b812")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 207.01 69.85 0)
+		(lib_id "Device:Varistor")
+		(at 82.55 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "051cd7b9-a567-47e6-9f7e-618d5a43b888")
-		(property "Reference" "C39"
-			(at 212.09 68.5799 0)
+		(uuid "04f42851-5f22-48cd-bbe1-4f57c4d24b2e")
+		(property "Reference" "RV5"
+			(at 85.09 147.5132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,8 +1959,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 212.09 71.1199 0)
+		(property "Value" "12V"
+			(at 85.09 150.0532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,8 +1968,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 207.9752 73.66 0)
+		(property "Footprint" "Varistor:RV_Disc_D7mm_W3.4mm_P5mm"
+			(at 80.772 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +1978,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 69.85 0)
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,8 +1986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 207.01 69.85 0)
+		(property "Description" "Voltage dependent resistor"
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,49 +1995,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "de04cf51-cc66-43a0-acad-6b81bcdd56cb")
-		)
-		(pin "2"
-			(uuid "1913da38-566f-4d3a-8994-b3063f06e9d8")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 156.21 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09d03cf5-06a1-4e1b-adac-61187017cb36")
-		(property "Reference" "FB2"
-			(at 156.1592 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R"
-			(at 156.1592 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 156.21 67.818 90)
+		(property "Sim.Name" "kicad_builtin_varistor"
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,8 +2004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 156.21 66.04 0)
+		(property "Sim.Device" "SUBCKT"
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,8 +2013,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead"
-			(at 156.21 66.04 0)
+		(property "Sim.Pins" "1=A 2=B"
+			(at 82.55 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "threshold=1k"
+			(at 82.55 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,81 +2041,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "f4ec8797-5e78-4215-a6e0-f17693749cb0")
+			(uuid "4c6e47d6-eca5-4ca8-8fcf-6ab174d74204")
 		)
 		(pin "1"
-			(uuid "6308b720-e308-4473-94e5-481f559da4fd")
+			(uuid "ef8c8395-e0c7-4658-93bc-dfba5a4155af")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "FB2")
+					(reference "RV5")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 143.51 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ec69aa4-6184-4a5f-a2b8-00d6efb08c1e")
-		(property "Reference" "#PWR0119"
-			(at 143.51 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bce2a4ce-a8da-4cf7-9d59-d4c03175d785")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR0119")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "RV6")
 					(unit 1)
 				)
 			)
@@ -2681,7 +2069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15032cc0-af51-44b8-b3b0-2ebc22e0deb2")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR085"
 			(at 266.7 231.14 0)
 			(effects
 				(font
@@ -2691,11 +2079,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 229.87 0)
+			(at 269.24 226.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2726,78 +2115,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2fd1b40-e1ad-4b5f-b735-1d5c2d81985d")
+			(uuid "7da6da61-3eb1-4048-a300-4ceaf3e8d7cd")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR056")
+					(reference "#PWR085")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15b0e096-e254-4b13-9947-6573cef26ae6")
-		(property "Reference" "#PWR0121"
-			(at 226.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93270ead-471b-40e0-866b-3fed3cbcf08c")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR0121")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -2813,7 +2140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18163cba-1e13-407d-88da-c8c35d4b16ff")
-		(property "Reference" "C31"
+		(property "Reference" "C37"
 			(at 168.91 134.62 90)
 			(effects
 				(font
@@ -2829,7 +2156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.72 141.2748 0)
 			(effects
 				(font
@@ -2857,15 +2184,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4b1b9db-f05e-42f8-a1a0-c15523df95e7")
+			(uuid "51444951-ff33-4102-84ec-385827a187e9")
 		)
 		(pin "2"
-			(uuid "8249bb5a-ca24-4d8b-bb2a-2e41ac0c3fd8")
+			(uuid "8b00d9e8-2490-423c-be38-54a7b7b50a97")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C31")
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -2881,7 +2212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aeba8d9-3f86-453b-9257-aa363c5e2794")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR079"
 			(at 194.31 139.7 0)
 			(effects
 				(font
@@ -2926,148 +2257,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "9000645b-e459-48b7-98c6-32a2da9f37e1")
+			(uuid "e8a59329-bded-41a1-8d0a-70de13c0d11e")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR055")
+					(reference "#PWR079")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b852d56-2ff6-4a14-b9e0-4dbab60156e1")
-		(property "Reference" "#PWR0120"
-			(at 168.91 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76c52f0d-78fe-456a-bcea-a9e68fbd3577")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f87a580-ca23-4a4b-8d8a-bf1c3667c760")
-		(property "Reference" "R16"
-			(at 269.24 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 269.24 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.208 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0215d027-d3d0-47b3-b71b-38328c80b75b")
-		)
-		(pin "2"
-			(uuid "35ccee4c-1399-454f-abf3-4fdca14ee1ca")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "R16")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -3083,7 +2282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "283b1450-6ffd-4ab0-b5d4-62966ef8a557")
-		(property "Reference" "D8"
+		(property "Reference" "D11"
 			(at 107.95 147.0024 90)
 			(effects
 				(font
@@ -3092,7 +2291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "CG0402MLU-12G"
 			(at 107.95 149.5424 90)
 			(effects
 				(font
@@ -3101,7 +2300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 105.41 148.59 0)
 			(effects
 				(font
@@ -3129,15 +2328,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "288df3c0-afb1-4f74-885a-feab2af4428d")
+			(uuid "468f4b3a-a4af-4d63-8364-5c91ff54abc2")
 		)
 		(pin "1"
-			(uuid "5f5a3e94-2c71-477e-b4cf-a214fddf010c")
+			(uuid "f3832004-6d86-4272-8fb6-7ccfa4557c4a")
 		)
 		(instances
-			(project ""
+			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "D8")
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -3153,7 +2356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a3953f7-a0c6-40c1-aed4-9c89fc331108")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR082"
 			(at 204.47 129.54 0)
 			(effects
 				(font
@@ -3163,11 +2366,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 204.47 120.65 0)
+			(at 207.01 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3198,149 +2402,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d8d7b4f-206d-4354-83e3-e2a2b45df42a")
+			(uuid "12736b34-3f64-4011-af7e-c48eb51d8234")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR050")
+					(reference "#PWR082")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TLV76150DCY")
-		(at 226.06 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a3fff74-6f40-4857-98bc-dc50582410cf")
-		(property "Reference" "U7"
-			(at 226.06 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV76150DCY"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 226.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv761.pdf"
-			(at 226.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5.0V, 1A, Low Noise, High-PSRR LDO Regulator, 2.5V...16V input, SOT-223"
-			(at 226.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "efcb64b5-a772-4358-940a-edfd3a0519b5")
-		)
-		(pin "3"
-			(uuid "dd8d49c4-2913-4ce1-b6e4-e6a14a601a87")
-		)
-		(pin "2"
-			(uuid "d6453056-3119-402b-85be-3e440fa22817")
-		)
-		(instances
-			(project ""
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 278.13 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b63260c-adfa-4624-8f01-330a930f6507")
-		(property "Reference" "#PWR051"
-			(at 278.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2.5V"
-			(at 278.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 278.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6452978c-89e0-48d9-8e81-a23cbb86e26b")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR051")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -3354,8 +2425,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3d374737-ea0a-45f0-ad6c-382ea7216f9d")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 184.15 128.2699 0)
 			(effects
 				(font
@@ -3373,7 +2445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 183.388 129.54 90)
 			(effects
 				(font
@@ -3401,15 +2473,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "075ac711-b310-4ee6-86d9-b97784d08db1")
+			(uuid "b34eb411-c68b-4bea-9b2d-bab9deaa90cf")
 		)
 		(pin "2"
-			(uuid "d5cee377-80af-4109-a8ba-6fd05b212663")
+			(uuid "98960562-6d84-4ce3-aabb-e30b78b24932")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "R14")
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -3425,7 +2501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ed42c1f-71ee-4dcc-8a59-4709d4448944")
-		(property "Reference" "C41"
+		(property "Reference" "C36"
 			(at 139.7 198.12 90)
 			(effects
 				(font
@@ -3441,7 +2517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.51 204.7748 0)
 			(effects
 				(font
@@ -3469,15 +2545,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "91818a22-7db9-4131-9e50-069dde8688a7")
+			(uuid "9ee1e96c-ca4f-42ba-9581-1a7e73d4e935")
 		)
 		(pin "2"
-			(uuid "244df7ed-30bb-47f4-97dc-c7fda4cf6f43")
+			(uuid "5dfd0e56-5e24-424d-9e9d-7395e3138089")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C41")
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -3493,7 +2573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f628006-fde4-4ced-b78d-e3b1f10d8711")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR080"
 			(at 201.93 193.04 0)
 			(effects
 				(font
@@ -3503,11 +2583,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 201.93 184.15 0)
+			(at 204.47 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3538,12 +2619,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "557ad297-ed92-4230-b4d6-53b4dc370d23")
+			(uuid "cdd26b73-8592-42d1-a466-4455cd3bb660")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR060")
+					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3604,24 +2689,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ec641dd-7fe7-4f38-b789-40e568ef3053")
+			(uuid "74d692f4-1140-4034-88c6-77ecf09b24fa")
 		)
 		(pin "5"
-			(uuid "f081afa1-299a-4b23-a88f-725b163f5e1e")
+			(uuid "a851a33d-d3f1-46a2-9091-0edacca6ecf7")
 		)
 		(pin "4"
-			(uuid "9f596ca3-cec4-417e-8cd2-37ebae91fff6")
+			(uuid "aa2411b3-7b51-4549-8472-497b7ea64713")
 		)
 		(pin "2"
-			(uuid "de8bdb5e-0976-4b9c-8100-cc31f5868377")
+			(uuid "66fb80e8-4f73-4af0-ad97-36806fd56f6a")
 		)
 		(pin "3"
-			(uuid "fba50a27-a462-4b81-9304-89d778aeef7a")
+			(uuid "1b9c440e-2070-456d-b6c5-ac08566c288b")
 		)
 		(instances
-			(project ""
+			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
 					(reference "U6")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -3637,7 +2726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a9d108f-4354-4273-8846-f0923b527f6e")
-		(property "Reference" "R21"
+		(property "Reference" "R17"
 			(at 165.1 199.39 90)
 			(effects
 				(font
@@ -3653,7 +2742,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 165.1 203.962 90)
 			(effects
 				(font
@@ -3681,85 +2770,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "949ac59e-9117-4a31-b7b7-d90fedf2eaf5")
+			(uuid "8884e0a4-43f3-4acc-80f2-d955649b4e6c")
 		)
 		(pin "2"
-			(uuid "4f1a2d85-f07d-4bb6-ad32-450b019d781a")
+			(uuid "87fc9adf-e0bd-4ff7-9c5a-2a1540b90e61")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "R21")
+					(reference "R17")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 168.91 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b971770-f324-426a-a9e3-bc45f24573dd")
-		(property "Reference" "C37"
-			(at 173.99 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 173.99 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 169.8752 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 168.91 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9db4f50c-578b-4d6e-936e-99b0470d248e")
-		)
-		(pin "2"
-			(uuid "ddeadb29-3120-4a8f-bdfd-e24709009177")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C37")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -3775,7 +2798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d9fc87a-2225-4e45-882f-2013e2ff9816")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 248.92 153.6699 0)
 			(effects
 				(font
@@ -3793,7 +2816,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 244.1448 151.13 0)
 			(effects
 				(font
@@ -3821,15 +2844,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "68af3b34-3a33-4c21-9a65-7801d005a937")
+			(uuid "7cdcc641-5c39-462d-8252-4fa6498891d5")
 		)
 		(pin "2"
-			(uuid "e87cbea4-ca50-427c-9642-ba7c7af2dc73")
+			(uuid "cf54aa5a-ea0a-4a07-862c-59290dc4559b")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C40")
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -3845,7 +2872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ffe5875-2af7-4c67-add7-8f9f19fbb2cf")
-		(property "Reference" "C32"
+		(property "Reference" "C41"
 			(at 241.3 200.66 90)
 			(effects
 				(font
@@ -3861,7 +2888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 245.11 207.3148 0)
 			(effects
 				(font
@@ -3889,15 +2916,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "d8b76b27-2c3f-4b48-94d7-7f0cb9e0e8b9")
+			(uuid "e537828f-7d65-4eaa-ab56-4aff120c9403")
 		)
 		(pin "2"
-			(uuid "97de6153-a7f8-43a4-9451-8d816aa59e9e")
+			(uuid "0383974e-5c16-437f-b10d-ff78baec95bf")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C32")
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -3913,7 +2944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "533ad5fa-9541-4dad-b7cf-4c45597fc022")
-		(property "Reference" "C30"
+		(property "Reference" "C35"
 			(at 134.62 147.3199 0)
 			(effects
 				(font
@@ -3931,7 +2962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 131.7752 152.4 0)
 			(effects
 				(font
@@ -3959,15 +2990,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "0331576d-b8d9-4d7d-98b5-316f8519ccfd")
+			(uuid "4e9b90fa-80ef-4590-90bc-6b9ad2e4c92c")
 		)
 		(pin "2"
-			(uuid "1e465599-ce41-4031-a229-787b1ac1c397")
+			(uuid "95a9a404-5fba-45e0-bd69-fe04b60c176e")
 		)
 		(instances
-			(project ""
+			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C30")
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -3983,7 +3018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64ff6b86-418c-4519-b1fd-9db7600b497a")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 118.11 135.89 90)
 			(effects
 				(font
@@ -3999,7 +3034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.11 144.018 90)
 			(effects
 				(font
@@ -4027,15 +3062,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd2985bf-3e21-458a-86aa-f62876da0596")
+			(uuid "7f727ca3-38d0-474c-aeac-471b3bf7074e")
 		)
 		(pin "2"
-			(uuid "6a1f37fe-e7d9-4a27-841f-865da40ef355")
+			(uuid "0f8632c1-6744-4664-ba1c-3104432026ee")
 		)
 		(instances
-			(project ""
+			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "R12")
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4051,7 +3090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66ea3ed0-5f27-4307-9c30-77e9ee87ee4d")
-		(property "Reference" "C33"
+		(property "Reference" "C43"
 			(at 257.81 137.16 90)
 			(effects
 				(font
@@ -4067,7 +3106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 261.62 143.8148 0)
 			(effects
 				(font
@@ -4095,15 +3134,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b998432-6b3b-49a2-9a51-92e12bbd04f5")
+			(uuid "45437d5a-f3b1-4b7f-935d-b70474a3fa7c")
 		)
 		(pin "2"
-			(uuid "286c26b5-43e3-46ba-9894-6bc2cf3fb2b8")
+			(uuid "aefcc505-3010-451d-bd4e-d930acf5901c")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C33")
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -4119,7 +3162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6deb3170-679d-4191-9c97-8f436eca3e4c")
-		(property "Reference" "C43"
+		(property "Reference" "C38"
 			(at 181.61 210.8199 0)
 			(effects
 				(font
@@ -4137,7 +3180,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.8348 208.28 0)
 			(effects
 				(font
@@ -4165,85 +3208,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "0bf42ba9-32e5-4dec-9b65-9296fad1a1c2")
+			(uuid "0305e468-e0e2-4bcd-a08f-2c9f5042e98b")
 		)
 		(pin "2"
-			(uuid "c7fa0c60-5057-48f9-b20d-559a56117537")
+			(uuid "73a06c1a-dcd4-4bd6-a4d3-b13df37a15a0")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C43")
+					(reference "C38")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 143.51 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e442b52-1952-4983-b099-a67fc4af80c4")
-		(property "Reference" "C35"
-			(at 148.59 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 148.59 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 144.4752 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 143.51 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fae07fdc-5d34-43f9-8399-f871fdbb04df")
-		)
-		(pin "2"
-			(uuid "65341ba9-f66c-48d9-8c55-7ea6df6cbb5b")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C35")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -4259,7 +3236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f29b277-b888-40dd-bc12-c43ea8a19f3f")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 228.6 201.93 90)
 			(effects
 				(font
@@ -4275,7 +3252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 228.6 210.058 90)
 			(effects
 				(font
@@ -4303,15 +3280,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7bb0f73-d276-485d-92d5-7fbf2a231f7b")
+			(uuid "411248d9-b656-480c-b3b2-7c596295a85b")
 		)
 		(pin "2"
-			(uuid "da2f497e-784f-4814-8a93-8ca39b708a99")
+			(uuid "a655356d-fbb2-4295-b227-a9340fd845e1")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "R15")
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -4327,7 +3308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74763ff7-790a-4f7b-b9f4-b1bae4deba36")
-		(property "Reference" "C36"
+		(property "Reference" "C40"
 			(at 198.12 128.2699 0)
 			(effects
 				(font
@@ -4345,7 +3326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.2752 133.35 0)
 			(effects
 				(font
@@ -4373,15 +3354,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "780e69d6-c459-4d66-952c-7d13c0adc62f")
+			(uuid "6bc733f6-986d-4041-8f62-578fac6beb26")
 		)
 		(pin "2"
-			(uuid "eda3eced-1699-4443-a1ad-2f95718b4c5b")
+			(uuid "87918778-bbeb-412c-b513-9ff0d681aa3c")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C36")
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -4397,7 +3382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "776501e5-84f7-4943-a1dc-33783d7d5a13")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 232.41 138.43 90)
 			(effects
 				(font
@@ -4413,7 +3398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 232.41 146.558 90)
 			(effects
 				(font
@@ -4441,15 +3426,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d17d9db-724c-4b63-baa5-245301dab5a1")
+			(uuid "d0aaad72-7de8-481d-8f35-4ff52065324f")
 		)
 		(pin "2"
-			(uuid "8f9e87b9-14ae-4683-9a7f-98a4549159df")
+			(uuid "6036a3dd-6a22-4251-9a25-52b324380c86")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "R19")
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -4465,7 +3454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7773813a-eb41-43e6-81d0-ae0cc0d3e247")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR075"
 			(at 152.4 193.04 0)
 			(effects
 				(font
@@ -4475,11 +3464,12 @@
 			)
 		)
 		(property "Value" "+2.5V"
-			(at 152.4 184.15 0)
+			(at 154.94 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4510,148 +3500,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "4be02fa1-95f6-4c23-a57e-c7030782594d")
+			(uuid "5a887908-90d0-4b05-81d3-f7ec9c969b39")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR046")
+					(reference "#PWR075")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 59.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b01d50e-fc36-4821-aa8c-942dc506d397")
-		(property "Reference" "R17"
-			(at 269.24 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 269.24 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.208 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95397cfc-0dca-4c9b-a481-9286cb5bb549")
-		)
-		(pin "2"
-			(uuid "498dd564-581b-4971-a23a-b3b790f06a14")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 265.43 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f125db9-eee4-430e-a62a-600179b2d7ab")
-		(property "Reference" "#PWR052"
-			(at 265.43 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 265.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 265.43 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be671678-f16f-4694-97ea-6cc3eaa11486")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR052")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -4667,7 +3525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8277fdb8-40f7-479a-a4a2-63950c0a4c10")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR078"
 			(at 191.77 203.2 0)
 			(effects
 				(font
@@ -4712,78 +3570,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a28b3ba-1e84-4344-a31d-1a99b11eca71")
+			(uuid "9bc0dd4a-8f01-401a-9992-dd91ef94b1d9")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR059")
+					(reference "#PWR078")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 245.11 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "829606e9-6eea-4052-b662-2afb3c6f868f")
-		(property "Reference" "#PWR0122"
-			(at 245.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "384d9d1a-79aa-41f8-b54a-904b92561c03")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR0122")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -4799,7 +3595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ccfe65-9755-4c48-9cfc-2a8203cf08c3")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR081"
 			(at 201.93 222.25 0)
 			(effects
 				(font
@@ -4844,12 +3640,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "95ec43d9-c80a-49a7-a9e7-3fa7515e9b98")
+			(uuid "1191b15d-55c3-4401-935e-28c34cd9fdab")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR061")
+					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -4865,7 +3665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86622089-29a4-4c8a-8448-03be23695fe6")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR084"
 			(at 245.11 167.64 0)
 			(effects
 				(font
@@ -4875,11 +3675,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 166.37 0)
+			(at 247.65 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4910,148 +3711,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "800a109c-3ea0-4e46-b18d-43d572f0137d")
+			(uuid "59f1ea40-a041-4f0b-81eb-e3b768995c33")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR057")
+					(reference "#PWR084")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 207.01 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8af9fd1e-4ed9-481f-ab51-d15ea7ea3bbe")
-		(property "Reference" "#PWR0123"
-			(at 207.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90978288-e77b-4d1a-a592-00d85cbf89b5")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 245.11 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d2fcf20-bf62-451e-a21d-4957ec4c0699")
-		(property "Reference" "C38"
-			(at 250.19 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 250.19 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 246.0752 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 245.11 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99c3ff55-5af6-4d28-853d-88d0b361e63f")
-		)
-		(pin "2"
-			(uuid "125343a4-da34-401d-9d7f-b7e666c2c1b4")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C38")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -5067,7 +3736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dea9518-88da-4222-ad85-80707dbec0fb")
-		(property "Reference" "R13"
+		(property "Reference" "R16"
 			(at 158.75 147.3199 0)
 			(effects
 				(font
@@ -5085,7 +3754,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 157.988 148.59 90)
 			(effects
 				(font
@@ -5113,15 +3782,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "025e6246-f1d3-4780-8ced-5df68331b281")
+			(uuid "e10c602b-7c3c-402c-90aa-8f1c935bbb93")
 		)
 		(pin "2"
-			(uuid "e9037776-75e8-4ff0-963e-81d24d508dd0")
+			(uuid "a79c151e-0b9e-4a0d-b6a8-79c020097f59")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "R13")
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -5135,8 +3808,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9045cf3b-b199-4f9b-b85d-633490cdc8c6")
-		(property "Reference" "C42"
+		(property "Reference" "C39"
 			(at 195.58 191.7699 0)
 			(effects
 				(font
@@ -5154,7 +3828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 192.7352 196.85 0)
 			(effects
 				(font
@@ -5182,85 +3856,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff4bc5df-639b-437c-b68d-06a38b96231a")
+			(uuid "5d5ae2d9-b4cd-4aae-9cba-ff7c1a8c90f6")
 		)
 		(pin "2"
-			(uuid "1a641c8a-69bf-4a7e-add4-dd751c925e39")
+			(uuid "b2f2d08e-b65f-4b15-8829-29a6ec42bbf3")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C42")
+					(reference "C39")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 118.11 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9335c0e6-c9d3-42cd-bbf6-4c3d85b586f5")
-		(property "Reference" "D9"
-			(at 120.65 68.2624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 120.65 70.8024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 118.11 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5e03067-d56a-4406-bc04-440b107d403a")
-		)
-		(pin "1"
-			(uuid "48aaf684-2c0d-48f0-bce4-06ae6e06040e")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "D9")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -5276,7 +3884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d0628d1-1aa1-414c-a9eb-3a34a38acb8a")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 269.24 216.8524 90)
 			(effects
 				(font
@@ -5294,7 +3902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 218.44 0)
 			(effects
 				(font
@@ -5322,81 +3930,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "85c5b623-5ae2-4c38-8008-76eb99faf5d8")
+			(uuid "90cd9972-6730-4521-a2b3-f1620ad692a9")
 		)
 		(pin "1"
-			(uuid "f66fa876-2da7-405b-8ccc-8ccbd2d6464e")
+			(uuid "2ed9aec9-4446-4fed-95fc-571dc640f045")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 245.11 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a63286cb-4b07-40f5-a26a-9e7a79951b92")
-		(property "Reference" "#PWR048"
-			(at 245.11 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 245.11 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 245.11 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87e516dd-6457-4fb7-ba07-408eb526dbdc")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR048")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -5412,7 +3958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a778fd03-3e05-4501-9251-35ecbd3b9844")
-		(property "Reference" "R18"
+		(property "Reference" "R21"
 			(at 256.54 217.1699 0)
 			(effects
 				(font
@@ -5430,7 +3976,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 255.778 218.44 90)
 			(effects
 				(font
@@ -5458,15 +4004,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea53d6be-8a36-45ee-b43c-27d3c87c6db4")
+			(uuid "e30d5570-1d0b-42db-ad83-cc1f467a6781")
 		)
 		(pin "2"
-			(uuid "47e9b7ee-b677-4146-8213-45376924d612")
+			(uuid "93c513d9-8ebb-4b78-841b-ead6dbee8ca7")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "R18")
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -5482,7 +4032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9b2cff8-59c6-47cd-9704-4da356115653")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR077"
 			(at 181.61 129.54 0)
 			(effects
 				(font
@@ -5492,11 +4042,12 @@
 			)
 		)
 		(property "Value" "+2.5V"
-			(at 181.61 120.65 0)
+			(at 184.15 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5527,12 +4078,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "efff131d-d9dc-4443-b4ab-9ea9b931f618")
+			(uuid "ae78e4da-c799-4e78-a4bd-d8ea360406c7")
 		)
 		(instances
-			(project ""
+			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR03")
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -5548,7 +4103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b05dab27-1fae-4ed1-805a-664d04f2d9d5")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 217.17 201.8598 0)
 			(effects
 				(font
@@ -5593,90 +4148,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "35bff106-e1da-478c-958a-f8e87ed65487")
+			(uuid "5dd55c7c-01ea-4237-b3b4-c31882096e07")
 		)
 		(pin "5"
-			(uuid "27ab3357-1459-4549-9867-157966a577e1")
+			(uuid "e6fd93a9-4ab8-4019-b874-670ed4237b45")
 		)
 		(pin "4"
-			(uuid "caa9da31-8aa2-4023-a759-5ba9b47d051b")
+			(uuid "20680d9a-bfb9-4f03-80d8-7c1cd5baf9f1")
 		)
 		(pin "2"
-			(uuid "4e67928a-4439-4de1-91b4-bc64dda49e42")
+			(uuid "83c8660d-aee4-479d-a403-39e238a1482c")
 		)
 		(pin "3"
-			(uuid "3eae9e89-73e4-4a39-975e-5879f6d16a2c")
+			(uuid "bcd6001c-aa70-48f2-820a-10a1cf71e966")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 168.91 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7f9c7b2-e5a1-479a-bad7-3ccabbc97250")
-		(property "Reference" "#PWR053"
-			(at 168.91 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 168.91 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 168.91 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "890f4999-d77b-495a-8118-8c8efa8a3faa")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR053")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -5692,7 +4185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5774163-bff8-4f0b-884f-ff2021b1355e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR083"
 			(at 204.47 158.75 0)
 			(effects
 				(font
@@ -5737,12 +4230,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8b6b794-4f2a-433e-aa5a-1919f593e11d")
+			(uuid "dda21d3b-2b75-443f-927a-57087f8ee5c2")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR049")
+					(reference "#PWR083")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -5750,7 +4247,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 218.44 0)
+		(at 177.8 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5758,8 +4255,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6e811fc-7d24-46cc-9ab7-175b342b0461")
-		(property "Reference" "#PWR058"
-			(at 177.8 224.79 0)
+		(property "Reference" "#PWR076"
+			(at 177.8 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,15 +4265,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 223.52 0)
+			(at 180.34 226.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 218.44 0)
+			(at 177.8 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,7 +4283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 218.44 0)
+			(at 177.8 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +4292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 218.44 0)
+			(at 177.8 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,218 +4301,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8a65f01-f29f-4db5-9c04-9baaacda8253")
+			(uuid "094ffa5f-90a5-4bcc-aeda-2d104bf30fe3")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR058")
+					(reference "#PWR076")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 278.13 72.39 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df23b2a8-c5ad-4e50-885d-243de1b1419b")
-		(property "Reference" "C34"
-			(at 283.21 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47u"
-			(at 283.21 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 277.1648 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 278.13 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a122a8e-8d4b-4adb-9f33-b7d83cc28329")
-		)
-		(pin "2"
-			(uuid "ed4928f8-58b3-4767-a097-4e9fa00639f1")
-		)
-		(instances
-			(project "BananaGuard"
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 118.11 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e86674fa-ad57-4c25-a9ba-1503a9a277a5")
-		(property "Reference" "#PWR054"
-			(at 118.11 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 118.11 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 118.11 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b810116-a1a8-4c88-b6bf-dcf7159b7277")
-		)
-		(instances
-			(project ""
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 181.61 57.15 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8761667-c842-4f88-9c75-8c7fe7999569")
-		(property "Reference" "D10"
-			(at 181.9275 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 181.9275 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 181.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "05089fda-f7b9-4827-8511-edef6114a596")
-		)
-		(pin "1"
-			(uuid "be7b9098-be00-4054-a34b-9e365f21331b")
-		)
-		(instances
-			(project ""
-				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "D10")
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -6028,8 +4324,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ef431746-0880-45d4-9dd2-3fc86f90dd50")
-		(property "Reference" "R22"
+		(property "Reference" "R15"
 			(at 154.94 191.7699 0)
 			(effects
 				(font
@@ -6047,7 +4344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 154.178 193.04 90)
 			(effects
 				(font
@@ -6075,15 +4372,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "9113f475-11fc-470b-b988-6746b59ad8be")
+			(uuid "7f1f27a3-0249-4bb4-ab91-3ea337c7f87d")
 		)
 		(pin "2"
-			(uuid "3b3ae90a-8410-4ae5-b7e3-6f424423b1db")
+			(uuid "7e16f105-a225-408b-8022-1923d6b8ab06")
 		)
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "R22")
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
+					(reference "R35")
 					(unit 1)
 				)
 			)
