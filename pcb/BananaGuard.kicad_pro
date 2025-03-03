@@ -492,7 +492,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/USB/V_{BUS_IN}": [
+        "2A"
+      ],
+      "VBUS": [
+        "2A"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -639,45 +646,81 @@
     ],
     [
       "885d800c-45cf-4a95-91d9-af655ed47726",
-      "Analogue Front End"
+      "Analogue Front End Left"
+    ],
+    [
+      "f93c52e7-bfcd-442c-b7ea-356596214072",
+      "Analogue Front End Right"
     ],
     [
       "3946e482-0b45-422f-8df8-a9f9b66d3e73",
       "Keys"
     ],
     [
-      "aec6201a-578f-49f0-8ea2-66fb39d0a9ea",
+      "7268c1ae-863c-439e-a2f1-1ef7e85f422f",
       "Debounced Button"
     ],
     [
-      "d17cfa6e-0209-4bf9-b4b5-f6082341de20",
+      "7ee54954-98e9-4792-a90e-37cd8361b48f",
       "Debounced Button1"
     ],
     [
-      "6c95cb4e-5507-494c-95c6-50e1d1d69025",
+      "4709e495-9b9b-4f19-9616-72f153232c54",
       "Debounced Button2"
     ],
     [
-      "01e17d0a-412f-4d7a-9227-4ba16d92153f",
+      "72c3308d-1d18-4335-a134-1137a4ed405e",
       "Debounced Button3"
     ],
     [
-      "299de876-0c5e-4abf-8322-31360b041f05",
+      "3953e9a9-ac44-4227-99e2-91257d89534b",
       "Debounced Button4"
     ],
     [
-      "4d7de1fb-47ac-412c-a2ee-cf0667f27b41",
+      "4609b162-89a7-45be-9d78-0a59db6772c3",
       "Debounced Button5"
     ],
     [
-      "f93c52e7-bfcd-442c-b7ea-356596214072",
-      "Analogue Front End1"
+      "03570796-9a76-45b4-b085-901b88caebf5",
+      "Debounced Button6"
+    ],
+    [
+      "3021400f-5dde-41cb-a2c9-9a9fa5233ac9",
+      "Debounced Button7"
+    ],
+    [
+      "0f8879ca-822d-4666-8838-cc7b2d0df8d8",
+      "Debounced Button8"
+    ],
+    [
+      "0553c212-df32-4499-9368-225bc92758c3",
+      "Debounced Button9"
+    ],
+    [
+      "2eaa0fd5-a12e-4bf9-bcef-4ef934c7e69a",
+      "Debounced Button10"
+    ],
+    [
+      "222a820f-334c-487f-bc09-dec19913ecf2",
+      "Debounced Button11"
     ],
     [
       "ae7f9a36-3daf-4903-87c4-e09344dfdb56",
       "Buttons"
     ],
     [
+      "aec6201a-578f-49f0-8ea2-66fb39d0a9ea",
+      "Debounced Button"
+    ],
+    [
+      "d17cfa6e-0209-4bf9-b4b5-f6082341de20",
+      "Debounced Button1"
+    ],
+    [
+      "6c95cb4e-5507-494c-95c6-50e1d1d69025",
+      "Debounced Button2"
+    ],
+    [
       "01e17d0a-412f-4d7a-9227-4ba16d92153f",
       "Debounced Button3"
     ],
@@ -686,20 +729,12 @@
       "Debounced Button4"
     ],
     [
-      "6c95cb4e-5507-494c-95c6-50e1d1d69025",
-      "Debounced Button2"
-    ],
-    [
       "4d7de1fb-47ac-412c-a2ee-cf0667f27b41",
       "Debounced Button5"
     ],
     [
-      "d17cfa6e-0209-4bf9-b4b5-f6082341de20",
-      "Debounced Button1"
-    ],
-    [
-      "aec6201a-578f-49f0-8ea2-66fb39d0a9ea",
-      "Debounced Button"
+      "05667cdf-89d8-4add-ab8a-290257289fcd",
+      "USB"
     ]
   ],
   "text_variables": {}
