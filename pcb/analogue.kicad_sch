@@ -2041,10 +2041,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c6e47d6-eca5-4ca8-8fcf-6ab174d74204")
+			(uuid "535eaac2-2841-4364-ba27-a8fcb51deb35")
 		)
 		(pin "1"
-			(uuid "ef8c8395-e0c7-4658-93bc-dfba5a4155af")
+			(uuid "000a7a8c-3952-42e3-a429-fead0164d774")
 		)
 		(instances
 			(project ""
@@ -2069,7 +2069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15032cc0-af51-44b8-b3b0-2ebc22e0deb2")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR090"
 			(at 266.7 231.14 0)
 			(effects
 				(font
@@ -2115,16 +2115,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da6da61-3eb1-4048-a300-4ceaf3e8d7cd")
+			(uuid "314cb970-7692-4184-83bc-bee50f5efee4")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR082")
+					(reference "#PWR090")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "#PWR093")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2140,7 +2140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18163cba-1e13-407d-88da-c8c35d4b16ff")
-		(property "Reference" "C35"
+		(property "Reference" "C37"
 			(at 168.91 115.57 90)
 			(effects
 				(font
@@ -2184,19 +2184,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "51444951-ff33-4102-84ec-385827a187e9")
+			(uuid "372bb7aa-4a4b-4b13-b05a-b70ad573984b")
 		)
 		(pin "2"
-			(uuid "8b00d9e8-2490-423c-be38-54a7b7b50a97")
+			(uuid "3225b403-4bf2-46b1-8560-896b880f55d6")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C35")
+					(reference "C37")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "C44")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -2212,7 +2212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aeba8d9-3f86-453b-9257-aa363c5e2794")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR084"
 			(at 194.31 120.65 0)
 			(effects
 				(font
@@ -2257,16 +2257,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8a59329-bded-41a1-8d0a-70de13c0d11e")
+			(uuid "dd68f24d-8396-45f1-a2d7-598ac389f87b")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR076")
+					(reference "#PWR084")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "#PWR087")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -2328,13 +2328,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "468f4b3a-a4af-4d63-8364-5c91ff54abc2")
+			(uuid "237cd568-f174-42d9-9f2a-c8b2519c62c3")
 		)
 		(pin "1"
-			(uuid "f3832004-6d86-4272-8fb6-7ccfa4557c4a")
+			(uuid "a62f5962-7f4a-443f-930b-447b0e77848c")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
 					(reference "D11")
 					(unit 1)
@@ -2356,7 +2356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a3953f7-a0c6-40c1-aed4-9c89fc331108")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR087"
 			(at 204.47 110.49 0)
 			(effects
 				(font
@@ -2402,16 +2402,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "12736b34-3f64-4011-af7e-c48eb51d8234")
+			(uuid "778cd8ba-e65c-4115-b5b3-790b91324663")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR079")
+					(reference "#PWR087")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "#PWR090")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -2473,13 +2473,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "b34eb411-c68b-4bea-9b2d-bab9deaa90cf")
+			(uuid "1a71841c-9a3c-47d0-9752-f595e54e297f")
 		)
 		(pin "2"
-			(uuid "98960562-6d84-4ce3-aabb-e30b78b24932")
+			(uuid "9466fd29-ceca-4ff7-a91e-6499261fb3b3")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
 					(reference "R18")
 					(unit 1)
@@ -2501,7 +2501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ed42c1f-71ee-4dcc-8a59-4709d4448944")
-		(property "Reference" "C34"
+		(property "Reference" "C36"
 			(at 139.7 198.12 90)
 			(effects
 				(font
@@ -2545,19 +2545,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ee1e96c-ca4f-42ba-9581-1a7e73d4e935")
+			(uuid "f2114000-6841-44b7-915b-958a75cb2897")
 		)
 		(pin "2"
-			(uuid "5dfd0e56-5e24-424d-9e9d-7395e3138089")
+			(uuid "a9f90fa6-4568-4d65-98e6-3a6d4d90e04d")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C34")
+					(reference "C36")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "C43")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f628006-fde4-4ced-b78d-e3b1f10d8711")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR085"
 			(at 201.93 193.04 0)
 			(effects
 				(font
@@ -2619,16 +2619,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdd26b73-8592-42d1-a466-4455cd3bb660")
+			(uuid "f4dd2d3f-8d0e-42de-857f-e22cbf7d49ef")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR077")
+					(reference "#PWR085")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "#PWR088")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2644,7 +2644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46f23beb-fb48-4248-8e9e-bb3c5026c5c2")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 219.71 119.3098 0)
 			(effects
 				(font
@@ -2689,28 +2689,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "74d692f4-1140-4034-88c6-77ecf09b24fa")
+			(uuid "0814e68b-7bba-4d2f-a581-4e8ab7736661")
 		)
 		(pin "5"
-			(uuid "a851a33d-d3f1-46a2-9091-0edacca6ecf7")
+			(uuid "9bfa03b3-de09-4e02-a599-fecd00910f92")
 		)
 		(pin "4"
-			(uuid "aa2411b3-7b51-4549-8472-497b7ea64713")
+			(uuid "3286e9db-406d-4476-a9be-bada3fce1250")
 		)
 		(pin "2"
-			(uuid "66fb80e8-4f73-4af0-ad97-36806fd56f6a")
+			(uuid "f3781f3a-5e3e-42b8-981f-72db7bf37ff4")
 		)
 		(pin "3"
-			(uuid "1b9c440e-2070-456d-b6c5-ac08566c288b")
+			(uuid "fe35ada0-8ed9-47ab-8229-673466b3abe8")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -2770,13 +2770,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "8884e0a4-43f3-4acc-80f2-d955649b4e6c")
+			(uuid "51820644-bb83-4c87-abe9-40b52188c32f")
 		)
 		(pin "2"
-			(uuid "87fc9adf-e0bd-4ff7-9c5a-2a1540b90e61")
+			(uuid "8d7609e3-d4e0-4bdf-9180-81cc5daeeedb")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
 					(reference "R17")
 					(unit 1)
@@ -2798,7 +2798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d9fc87a-2225-4e45-882f-2013e2ff9816")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 248.92 134.6199 0)
 			(effects
 				(font
@@ -2844,19 +2844,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "7cdcc641-5c39-462d-8252-4fa6498891d5")
+			(uuid "19caee6c-4c4e-4162-a755-1654cf2f18c1")
 		)
 		(pin "2"
-			(uuid "cf54aa5a-ea0a-4a07-862c-59290dc4559b")
+			(uuid "96ce730c-e3d1-4d4e-87bc-bbf01db770af")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C40")
+					(reference "C42")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "C49")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -2872,7 +2872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ffe5875-2af7-4c67-add7-8f9f19fbb2cf")
-		(property "Reference" "C39"
+		(property "Reference" "C41"
 			(at 241.3 200.66 90)
 			(effects
 				(font
@@ -2916,19 +2916,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "e537828f-7d65-4eaa-ab56-4aff120c9403")
+			(uuid "840b5c3f-c8f1-43d6-bd9b-9952d4383547")
 		)
 		(pin "2"
-			(uuid "0383974e-5c16-437f-b10d-ff78baec95bf")
+			(uuid "6c977c5d-e3b9-480a-a34d-dc0c4fa638fd")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C39")
+					(reference "C41")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "C48")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -2944,7 +2944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "533ad5fa-9541-4dad-b7cf-4c45597fc022")
-		(property "Reference" "C33"
+		(property "Reference" "C35"
 			(at 134.62 128.2699 0)
 			(effects
 				(font
@@ -2990,19 +2990,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e9b90fa-80ef-4590-90bc-6b9ad2e4c92c")
+			(uuid "458288e0-2d0d-4dbf-a580-19cb6e99d441")
 		)
 		(pin "2"
-			(uuid "95a9a404-5fba-45e0-bd69-fe04b60c176e")
+			(uuid "17535c8c-3501-4adb-87d2-b28864c65ea6")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C33")
+					(reference "C35")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "C42")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -3062,13 +3062,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f727ca3-38d0-474c-aeac-471b3bf7074e")
+			(uuid "6ba3bf72-67d5-461f-859b-64d9261ff529")
 		)
 		(pin "2"
-			(uuid "0f8632c1-6744-4664-ba1c-3104432026ee")
+			(uuid "2201e8bf-18c1-4426-9e2d-6be71b790acc")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
 					(reference "R14")
 					(unit 1)
@@ -3090,7 +3090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66ea3ed0-5f27-4307-9c30-77e9ee87ee4d")
-		(property "Reference" "C41"
+		(property "Reference" "C43"
 			(at 257.81 118.11 90)
 			(effects
 				(font
@@ -3134,19 +3134,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "45437d5a-f3b1-4b7f-935d-b70474a3fa7c")
+			(uuid "83e95c30-3d40-4fd1-accc-76a205754b1d")
 		)
 		(pin "2"
-			(uuid "aefcc505-3010-451d-bd4e-d930acf5901c")
+			(uuid "bd251973-ea90-4a60-abdb-810e34dcd680")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C41")
+					(reference "C43")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "C50")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -3162,7 +3162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6deb3170-679d-4191-9c97-8f436eca3e4c")
-		(property "Reference" "C36"
+		(property "Reference" "C38"
 			(at 181.61 210.8199 0)
 			(effects
 				(font
@@ -3208,19 +3208,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "0305e468-e0e2-4bcd-a08f-2c9f5042e98b")
+			(uuid "f73cbdb3-a11b-4571-bd97-eaad24e6ab12")
 		)
 		(pin "2"
-			(uuid "73a06c1a-dcd4-4bd6-a4d3-b13df37a15a0")
+			(uuid "dfefdb45-e7b8-409b-a7ca-41bdd3dc4e3e")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C36")
+					(reference "C38")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "C45")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -3280,13 +3280,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "411248d9-b656-480c-b3b2-7c596295a85b")
+			(uuid "041b95e2-143b-4539-8801-5260eea66b6f")
 		)
 		(pin "2"
-			(uuid "a655356d-fbb2-4295-b227-a9340fd845e1")
+			(uuid "f6733fe5-3e8d-4326-b0ff-a92ccbc4c059")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
 					(reference "R19")
 					(unit 1)
@@ -3308,7 +3308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74763ff7-790a-4f7b-b9f4-b1bae4deba36")
-		(property "Reference" "C38"
+		(property "Reference" "C40"
 			(at 198.12 109.2199 0)
 			(effects
 				(font
@@ -3354,19 +3354,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "6bc733f6-986d-4041-8f62-578fac6beb26")
+			(uuid "3dc7bacb-e631-4c98-8330-e9b7d6c9ef26")
 		)
 		(pin "2"
-			(uuid "87918778-bbeb-412c-b513-9ff0d681aa3c")
+			(uuid "6c719258-9e3d-4892-b274-415693db1d62")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C38")
+					(reference "C40")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "C47")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -3426,13 +3426,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0aaad72-7de8-481d-8f35-4ff52065324f")
+			(uuid "2dee81a3-7f8c-494b-9b93-6b7a79b971a8")
 		)
 		(pin "2"
-			(uuid "6036a3dd-6a22-4251-9a25-52b324380c86")
+			(uuid "4589791e-685d-48f0-9367-60e7ee3080f7")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
 					(reference "R20")
 					(unit 1)
@@ -3454,7 +3454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7773813a-eb41-43e6-81d0-ae0cc0d3e247")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR080"
 			(at 152.4 193.04 0)
 			(effects
 				(font
@@ -3500,16 +3500,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a887908-90d0-4b05-81d3-f7ec9c969b39")
+			(uuid "e50fa685-ebc3-4a7a-a556-983a7612386b")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR072")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "#PWR083")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -3525,7 +3525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8277fdb8-40f7-479a-a4a2-63950c0a4c10")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR083"
 			(at 191.77 203.2 0)
 			(effects
 				(font
@@ -3570,16 +3570,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bc0dd4a-8f01-401a-9992-dd91ef94b1d9")
+			(uuid "fc902f17-3dcf-425b-8eb1-2960a6e31648")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR075")
+					(reference "#PWR083")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "#PWR086")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -3595,7 +3595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ccfe65-9755-4c48-9cfc-2a8203cf08c3")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR086"
 			(at 201.93 222.25 0)
 			(effects
 				(font
@@ -3640,16 +3640,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "1191b15d-55c3-4401-935e-28c34cd9fdab")
+			(uuid "404726b6-cff7-448d-9713-8f439f91e94d")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR078")
+					(reference "#PWR086")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "#PWR089")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -3665,7 +3665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86622089-29a4-4c8a-8448-03be23695fe6")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR089"
 			(at 245.11 148.59 0)
 			(effects
 				(font
@@ -3711,16 +3711,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "59f1ea40-a041-4f0b-81eb-e3b768995c33")
+			(uuid "10085ae2-1128-451e-8af6-66972bec3f51")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR081")
+					(reference "#PWR089")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "#PWR092")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -3782,13 +3782,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "e10c602b-7c3c-402c-90aa-8f1c935bbb93")
+			(uuid "435e79b7-58ef-4d5d-b554-8a9ed971824c")
 		)
 		(pin "2"
-			(uuid "a79c151e-0b9e-4a0d-b6a8-79c020097f59")
+			(uuid "7d06e674-9469-443c-b78f-1551420ed40b")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
 					(reference "R16")
 					(unit 1)
@@ -3810,7 +3810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9045cf3b-b199-4f9b-b85d-633490cdc8c6")
-		(property "Reference" "C37"
+		(property "Reference" "C39"
 			(at 195.58 191.7699 0)
 			(effects
 				(font
@@ -3856,19 +3856,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d5ae2d9-b4cd-4aae-9cba-ff7c1a8c90f6")
+			(uuid "392a0ff9-2a78-46fb-84d9-61e748011ed8")
 		)
 		(pin "2"
-			(uuid "b2f2d08e-b65f-4b15-8829-29a6ec42bbf3")
+			(uuid "4b889ed9-8d7b-4c45-a431-78184041df1f")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "C37")
+					(reference "C39")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "C46")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -3930,13 +3930,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "90cd9972-6730-4521-a2b3-f1620ad692a9")
+			(uuid "62e9cb69-6604-4aae-9862-b2fd0b3374b7")
 		)
 		(pin "1"
-			(uuid "2ed9aec9-4446-4fed-95fc-571dc640f045")
+			(uuid "acf5822f-5ecd-4cc6-993e-5bad021045f6")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
 					(reference "D12")
 					(unit 1)
@@ -4004,13 +4004,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "e30d5570-1d0b-42db-ad83-cc1f467a6781")
+			(uuid "f6c445c5-d018-4bb8-aad2-ddeeffaae712")
 		)
 		(pin "2"
-			(uuid "93c513d9-8ebb-4b78-841b-ead6dbee8ca7")
+			(uuid "36dfb200-dc2e-4320-ab01-35192bed1b71")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
 					(reference "R21")
 					(unit 1)
@@ -4032,7 +4032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9b2cff8-59c6-47cd-9704-4da356115653")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR082"
 			(at 181.61 110.49 0)
 			(effects
 				(font
@@ -4078,16 +4078,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae78e4da-c799-4e78-a4bd-d8ea360406c7")
+			(uuid "d7947143-c503-4000-b17f-778d332cf0e6")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR074")
+					(reference "#PWR082")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "#PWR085")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -4103,7 +4103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b05dab27-1fae-4ed1-805a-664d04f2d9d5")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 217.17 201.8598 0)
 			(effects
 				(font
@@ -4148,28 +4148,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "5dd55c7c-01ea-4237-b3b4-c31882096e07")
+			(uuid "476d3c80-7c23-4302-9015-d50b947b734b")
 		)
 		(pin "5"
-			(uuid "e6fd93a9-4ab8-4019-b874-670ed4237b45")
+			(uuid "2008f7a6-128d-4492-8dee-10efe5ab4dec")
 		)
 		(pin "4"
-			(uuid "20680d9a-bfb9-4f03-80d8-7c1cd5baf9f1")
+			(uuid "2f83d30a-bf5d-4762-bf43-1b8d4bef8784")
 		)
 		(pin "2"
-			(uuid "83c8660d-aee4-479d-a403-39e238a1482c")
+			(uuid "f1181761-bbef-4981-b189-1f3b26c1c04e")
 		)
 		(pin "3"
-			(uuid "bcd6001c-aa70-48f2-820a-10a1cf71e966")
+			(uuid "b0d3c73b-e45c-46df-9ad9-ca7d58c5598a")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4185,7 +4185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5774163-bff8-4f0b-884f-ff2021b1355e")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR088"
 			(at 204.47 139.7 0)
 			(effects
 				(font
@@ -4230,16 +4230,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "dda21d3b-2b75-443f-927a-57087f8ee5c2")
+			(uuid "a2c89561-2d77-4729-8476-564b36337659")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR080")
+					(reference "#PWR088")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "#PWR091")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -4255,7 +4255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6e811fc-7d24-46cc-9ab7-175b342b0461")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR081"
 			(at 177.8 231.14 0)
 			(effects
 				(font
@@ -4301,16 +4301,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "094ffa5f-90a5-4bcc-aeda-2d104bf30fe3")
+			(uuid "5fc6369d-3892-480f-bcb2-b0e33995e236")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
-					(reference "#PWR073")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/f93c52e7-bfcd-442c-b7ea-356596214072"
-					(reference "#PWR084")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -4372,13 +4372,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f1f27a3-0249-4bb4-ab91-3ea337c7f87d")
+			(uuid "09a7fd25-5c05-40c0-9690-9f5d6ccc994a")
 		)
 		(pin "2"
-			(uuid "7e16f105-a225-408b-8022-1923d6b8ab06")
+			(uuid "1621be0e-fe24-4769-a50d-607e186b9f49")
 		)
 		(instances
-			(project "BananaGuard"
+			(project ""
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/885d800c-45cf-4a95-91d9-af655ed47726"
 					(reference "R15")
 					(unit 1)

@@ -898,7 +898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10510dfb-1c8a-49e5-a118-b70688c8ceb5")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 41.91 45.7199 0)
 			(effects
 				(font
@@ -992,7 +992,7 @@
 					(unit 7)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/ae7f9a36-3daf-4903-87c4-e09344dfdb56"
-					(reference "U10")
+					(reference "U11")
 					(unit 7)
 				)
 			)
@@ -1008,7 +1008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "346b4094-9123-4ea7-8ac8-25127d837843")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0143"
 			(at 35.56 66.04 0)
 			(effects
 				(font
@@ -1058,7 +1058,7 @@
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/ae7f9a36-3daf-4903-87c4-e09344dfdb56"
-					(reference "#PWR099")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -1074,7 +1074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35469ec2-9122-41e8-b67e-67c47d441bc2")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 110.49 80.01 0)
 			(effects
 				(font
@@ -1166,7 +1166,7 @@
 					(unit 3)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/ae7f9a36-3daf-4903-87c4-e09344dfdb56"
-					(reference "U10")
+					(reference "U11")
 					(unit 3)
 				)
 			)
@@ -1182,7 +1182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "449e0868-a8cf-4f7a-8912-1968e228c99e")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 110.49 156.21 0)
 			(effects
 				(font
@@ -1274,7 +1274,7 @@
 					(unit 6)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/ae7f9a36-3daf-4903-87c4-e09344dfdb56"
-					(reference "U10")
+					(reference "U11")
 					(unit 6)
 				)
 			)
@@ -1290,7 +1290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80874159-7f10-4033-b9bf-a77e27a9eb5f")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 110.49 130.81 0)
 			(effects
 				(font
@@ -1382,7 +1382,7 @@
 					(unit 5)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/ae7f9a36-3daf-4903-87c4-e09344dfdb56"
-					(reference "U10")
+					(reference "U11")
 					(unit 5)
 				)
 			)
@@ -1398,7 +1398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aea6c14e-887f-4b51-b8eb-4bac2b04bc74")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0142"
 			(at 35.56 38.1 0)
 			(effects
 				(font
@@ -1448,7 +1448,7 @@
 		(instances
 			(project "BananaGuard"
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/ae7f9a36-3daf-4903-87c4-e09344dfdb56"
-					(reference "#PWR098")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -1464,7 +1464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4f68287-2a41-41b3-8bf4-7726ee1908ae")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 110.49 105.41 0)
 			(effects
 				(font
@@ -1556,7 +1556,7 @@
 					(unit 4)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/ae7f9a36-3daf-4903-87c4-e09344dfdb56"
-					(reference "U10")
+					(reference "U11")
 					(unit 4)
 				)
 			)
@@ -1572,7 +1572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd68dcb2-2744-4ed1-83ff-fa00315b3a5b")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 110.49 54.61 0)
 			(effects
 				(font
@@ -1664,7 +1664,7 @@
 					(unit 2)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/ae7f9a36-3daf-4903-87c4-e09344dfdb56"
-					(reference "U10")
+					(reference "U11")
 					(unit 2)
 				)
 			)
@@ -1680,7 +1680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f83afa34-fb03-4705-8761-dba6274db039")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 110.49 29.21 0)
 			(effects
 				(font
@@ -1772,7 +1772,7 @@
 					(unit 1)
 				)
 				(path "/c334e595-b478-4c47-9288-968ac2c472fc/ae7f9a36-3daf-4903-87c4-e09344dfdb56"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
