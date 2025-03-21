@@ -6,6 +6,9 @@ At the same time I've been meaning to do a DSP board to fiddle around with.
 
 I know there are plenty of dev boards around that I could use, but food tastes better when you make everything from scratch 😋.
 
+Here's a very WIP layout:
+![wip layout](wip_layout.png)
+
 ## Vision
 
 An all-in-one DSP development platform for sonic exploration 🎤
